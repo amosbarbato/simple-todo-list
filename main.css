@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    padding: 50px;
+    background-color: darkslategray;
+    color: white;
+}
+
+header h1 {
+    font-size: 50px;
+    font-weight: normal;
+}
+
+header, form {
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input {
+    min-width: 40%;
+}
+
+form input:focus {
+    outline: none;
+}
+
+form input, form button {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    border: none;
+    background-color: white;
+}
+
+form button {
+    color: darkslategray;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+form button:hover {
+    background-color: darkseagreen;
+    color: white;
+}
+
+.taskContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.taskList {
+    min-width: 40%;
+    list-style: none;
+}
+
+.task {
+    margin: 1.5rem;
+    background-color: white;
+    color: black;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.5s ease;
+}
+
+.task li {
+    flex: 1;
+}
+
+.taskItem {
+    padding: 0rem 0.5rem;
+}
+
+.trashBtn, .finishBtn {
+    background-color: darkseagreen;
+    color: white;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.finishBtn:hover {
+    background-color: #96e6a1;
+}
+
+.trashBtn:hover {
+    background-color: #fa709a;
+}
+
+.fa-trash, .fa-check {
+    pointer-events: none;
+}
+
+.finished {
+    opacity: 0.5;
+    text-decoration: line-through;
+}
+
+.fall {
+    transform: translatex(8rem);
+    opacity: 0;
+}
