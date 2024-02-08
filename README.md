@@ -6,3 +6,7 @@
 - Adicionar um elemento `<li>` dentro de uma lista ordenada ou não, ao submeter o formulário.
 - Adicionar um efeito que aplique uma linha em cima do texto (text-decoration: line-through).
 - Utilizar o jQuery para manipular os elementos e controlar os eventos.
+
+# Preview
+
+![preview](preview.gif)
